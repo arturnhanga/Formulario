@@ -1,0 +1,65 @@
+body{
+    background-image: linear-gradient(to right, rgb(180, 180, 228), rgb(4, 4, 92));
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.form{
+    position: absolute;
+    top: 15%;
+    left: 23%;
+}
+form{    
+    height: 461px;
+    border-radius: 10px;    
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+
+}
+.legend{
+    font-size: 30px;
+    background-color: rgb(4, 4, 92);
+    border-radius: 10px;
+}
+.fielset{
+    border-radius: 10px;
+}
+fieldset{
+    border: 3px solid rgb(4, 4, 92);
+}
+.inputlb{
+
+    pointer-events: none;
+    color: #534949;
+}
+legend{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: #534949;
+}
+select{
+    width: 250px;
+}
+.ap{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+.h11{
+    margin-left: 924px;
+}
+@media screen and (max-width:768px) {
+    .h11{
+        margin-left: 4em;
+    }
+}
+.ap6{
+    color: white;
+}
+.ap7{
+    color: rgb(4, 4, 92);
+}
